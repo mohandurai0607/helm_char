@@ -1,0 +1,20 @@
+
+replicaCount: 1
+
+depname: mydep
+
+image:
+  repository: mohan0607/nodeapp:5
+  
+
+service:
+  type: NodePort
+  name: myapp
+  port: 80
+  protocol: 'TCP'
+  targetport: 8000
+
+containername: test
+
+containerport: 8000
+
