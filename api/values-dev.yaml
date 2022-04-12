@@ -3,6 +3,7 @@ replicaCount: 1
 
 depname: myapi-dep-dev
 
+namespace: my-dev
 image:
   repository: mohan0607/nodeapp:5
   

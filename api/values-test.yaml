@@ -1,15 +1,16 @@
 
 replicaCount: 1
 
-depname: myum-dep
+depname: myapi-dep
 
+namespace: my-test
 image:
   repository: mohan0607/nodeapp:5
   
 
 service:
   type: NodePort
-  name: myum-svc
+  name: myapi-svc
   port: 80
   protocol: 'TCP'
   targetport: 8000

@@ -3,6 +3,8 @@ replicaCount: 1
 
 depname: myts-dep-dev
 
+namespace: my-dev
+
 image:
   repository: mohan0607/nodeapp:5
   

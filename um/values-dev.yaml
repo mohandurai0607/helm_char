@@ -18,3 +18,4 @@ containername: test
 
 containerport: 8001
 
+namespace: my-dev
