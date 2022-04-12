@@ -1,5 +1,5 @@
 
-replicaCount: 1
+replicaCount: 3
 
 depname: myts-dep
 
@@ -8,7 +8,7 @@ image:
   
 
 service:
-  type: NodePort
+  type: LoadBalancer
   name: myts-svc
   port: 80
   protocol: 'TCP'
