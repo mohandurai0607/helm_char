@@ -1,7 +1,7 @@
 
 replicaCount: 1
 
-depname: mydep
+depname: myts-dep
 
 image:
   repository: mohan0607/nodeapp:5
@@ -9,7 +9,7 @@ image:
 
 service:
   type: NodePort
-  name: myapp
+  name: myts-svc
   port: 80
   protocol: 'TCP'
   targetport: 8000
