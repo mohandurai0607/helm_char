@@ -1,5 +1,5 @@
 
-replicaCount: 3
+replicaCount: 6
 
 depname: myapi-dep-dev
 
