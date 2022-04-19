@@ -3,7 +3,7 @@ replicaCount: 3
 
 depname: myts-dep
 
-#namespace: my-test
+namespace: argocd
 image:
   repository: mohan0607/nodeapp:5
   
